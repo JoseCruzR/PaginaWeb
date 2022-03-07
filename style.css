@@ -1,0 +1,208 @@
+body {
+    background-color:rgb(236, 136, 102);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:blanchedalmond;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+p {
+    margin-bottom: auto;
+    text-align: justify;
+}
+
+.container {
+    width: 85%;
+    max-width: 850px;
+    margin:  0 auto;
+}
+
+.header {
+    background-color:#ebdacc;
+    padding: 2rem 0;
+    
+    position: fixed;
+    left: 0;
+    top:0;
+    right: 0;
+}
+
+
+.header a {
+    color: chocolate;
+    text-decoration: none;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation ul {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.45s linear;
+    border-radius: 5px;
+}
+
+.navigation ul li a:hover {
+    background-color:white ;
+}
+
+.Escudo {
+    letter-spacing: 15px;
+    font-size: 1.2em;
+}
+
+img{
+    width: 120px;
+}
+
+.main {
+    padding-top: 12rem;
+}
+.footer {
+    background:#ebdacc;
+    padding: 4rem 0;
+    text-align:center;
+    color:rgb(0, 0, 0);
+    margin-top: 2rem;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'open sans';
+}
+
+.contenedor{
+    width: 90%;
+    max-width:900px;
+    margin: auto;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tabla{
+    width: 33%;
+    height: 550px;
+    margin: auto;
+    border:1px solid #343759;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px 0px  #343759;
+    padding: 60px;
+    text-align: center;
+    flex-grow: 1;
+    color: #343759;
+    background-color:indianred;
+}
+
+.tabla>h2{
+    font-size:30px;
+    margin-bottom:35px;
+}
+
+.tabla img{
+    width: 180px;
+    margin-bottom:2px;
+}
+
+.tabla > h3{
+    font-size:30px;
+    margin-bottom: 20px;
+}
+
+.tabla > p{
+    display: block;
+    margin-bottom:20px;
+}
+
+.boton{
+    display:inline-block;
+    width: 150px;
+    padding:12px;
+    background: #ffffff;
+    text-decoration: none;
+    color:black;
+    border-radius: 100px;
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 600;
+    margin: auto;
+}
+
+.tabla:hover{
+    background: #343759;
+    color: #f1f1f2;
+    transition: .5s all;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px){
+    .tabla{
+        width: 45%;
+        max-width:none;
+        margin-bottom: 40px;
+        flex-grow: initial;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .tabla{
+        width: 45%;
+        padding:30px;
+    }
+    .tabla > h2{
+        margin-top:40px;
+    }
+}
+
+@media screen and (max-width:550px){
+    .tabla{
+        width: 85%;
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .navigation {
+        width:100%;
+        margin-top: 1rem;
+    }
+
+    .navigation ul li {
+        display: block;
+    }
+    
+    .navigation ul li a {
+        display: block;
+        padding: 0.5rem 0;
+        transition: all 0.45s linear;
+        border-radius: 5px;
+    }
+    
+    .navigation ul li a:hover {
+        background-color:white ;
+    }
+    
+
+}
